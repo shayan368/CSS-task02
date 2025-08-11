@@ -1,0 +1,44 @@
+   /* form style */
+   .container {
+
+       width: 25%;
+       margin: 0 auto;
+       margin-top: 20px;
+   }
+
+   fieldset {
+
+       width: 90%;
+       background-color: rgb(219, 180, 255);
+
+       border: 5px solid blue;
+       padding: 50px;
+
+   }
+
+   legend {
+       border: 2px solid brown;
+       background-color: aquamarine;
+       text-align: center;
+   }
+
+   input {
+       border: 3px solid brown;
+       background-color: aqua;
+
+   }
+
+   input:focus {
+       background-color: blueviolet;
+   }
+
+   button {
+       padding: 5px;
+       background-color: bisque;
+       border: none;
+       cursor: pointer;
+   }
+
+   button:hover {
+       background-color: aquamarine;
+   }
